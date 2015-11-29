@@ -1,4 +1,4 @@
-# News
+# About this repository
 Python package to parse news from various news website
 
 # Updates
