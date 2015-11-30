@@ -15,7 +15,7 @@ summaryDict = {'class': 'summary'}
 url = "http://www.nytimes.com/"
 
 page = urllib2.urlopen( url )
-data = BeautifulSoup( page )
+data = BeautifulSoup( page , "html.parser" )
 
 #____________________________________________________________________________||
 
