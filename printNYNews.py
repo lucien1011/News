@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-import urllib2
+import urllib.request as urllib2
 from bs4 import BeautifulSoup
 
 #____________________________________________________________________________||
@@ -26,14 +26,14 @@ topNews = data.body.find( 'section', attrs = topNewsDict ).find('article')
 print
 
 heading = topNews.find('h2', attrs = headDict )
-print "-"*len(heading.text)
-print heading.text
-print "-"*len(heading.text)
+print ("-"*len(heading.text))
+print (heading.text)
+print ("-"*len(heading.text))
 
 #____________________________________________________________________________||
 
 summary = topNews.find('p', summaryDict )
-print summary.text
+print (summary.text)
 
 print 
 #____________________________________________________________________________||
