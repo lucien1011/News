@@ -1,0 +1,3 @@
+[submodule "WebScraper"]
+	path = WebScraper
+	url = git@github.com:lucien1011/WebScraper.git
